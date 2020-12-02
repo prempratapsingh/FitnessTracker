@@ -9,5 +9,8 @@ The app uses `MVVM design pattern` for,
 3. Data objects are defined as Models
 
 The app uses a `UITableView` to present list of `Excercises` as `UITableViewCells`.Each excercise in the list contains a list of `WorkOuts`.
-User could add/remove Excercies and Workouts at runtime, the UITableView is updated based on the updated list of Excercies and Workouts.
+
+Users can add/remove Excercies and Workouts at runtime, the UITableView is updated based on the updated list of Excercies and Workouts.
+
+Users can edit the type of Workout as well, doing so instantly updates the related model object and the UITable view to show the latest data states. 
 
