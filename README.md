@@ -1,8 +1,9 @@
-# FitnessTracker
-iOS app written purely with Swift code. It doesn't use storyboards or xibs and have complex level of UITableView implementation.
+## Quick Demo
+FitnessTracker is an iOS app written purely with Swift code. It doesn't use storyboards or xibs and have complex level of UITableView implementation.
 
 ![FitnessTracker-Demo](https://user-images.githubusercontent.com/27926337/100876311-39f17e80-34cd-11eb-8564-bfaeeab284f1.gif)
 
+## Technical Overview
 The app uses `MVVM design pattern` for,
 1. Creationg and presentation of View, ViewControllers
 2. Delegating business logic (data objects, logical calculations, etc) to the ViewModels
